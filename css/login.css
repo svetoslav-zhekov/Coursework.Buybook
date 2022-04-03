@@ -1,0 +1,51 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Variables For Easy Change */
+:root {
+    --first-color: #0E0B16; /* Main-Color */
+    --second-color: #A239CA; /* Secondary-Color */
+    --third-color: #4717F6; /* Used Mainly For Buttons */
+    --fourth-color: #E7DFDD; /* Font Color/Div Container */
+}
+
+/* Background */
+body {
+    background-color: var(--first-color);
+    background-image: url("../resources/images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.2rem;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+
+/* Content */
+#content {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--fourth-color);
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+/* Button */
+input[type=submit] {
+    font-size: 1rem;
+    transition: transform .2s; /* Animation On Hover */
+    border-radius: 1rem;
+    background-color: var(--third-color);
+    font-family: 'Righteous', cursive;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    border: none;
+}
+
+/* Button */
+input[type=submit]:hover {
+    transform: scale(1.2);
+}

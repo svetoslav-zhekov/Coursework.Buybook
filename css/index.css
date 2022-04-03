@@ -1,0 +1,208 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Variables For Easy Change */
+:root {
+    --first-color: #0E0B16; /* Main-Color */
+    --second-color: #A239CA; /* Secondary-Color */
+    --third-color: #4717F6; /* Used Mainly For Buttons */
+    --fourth-color: #E7DFDD; /* Font Color/Div Container */
+}
+
+/* Background And General Settings */
+body {
+    background-color: var(--first-color);
+    background-image: url("../resources/images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+
+/* Logo Header */
+h1 {
+    font-size: 3.5rem;
+}
+
+/* Menu */
+#menu {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: var(--fourth-color);
+    border-radius: 0rem 2rem 2rem 0rem;
+    padding: 2rem;
+}
+
+.menu-buttons {
+    border-color: var(--second-color);
+    border-radius: 2rem;
+    border-bottom: 0rem solid var(--fourth-color);
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    background-color: var(--fourth-color);
+    transition: transform .2s; /* Animation On Hover */
+}
+
+/* Menu-Home Button Setup */
+#menu-home {
+    border-bottom: 1rem solid  var(--second-color);
+    transform: scale(1.2);
+}
+
+.menu-buttons:hover {
+    cursor: pointer;
+    transform: scale(1.2) !important;
+}
+
+#logout-button {
+    background-color: var(--third-color);
+    font-family: 'Righteous', cursive;
+    border: none;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    color: var(--fourth-color);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    transition: transform .2s; /* Animation On Hover */
+}
+
+#logout-button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* Home */
+#home-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--fourth-color);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+#home-header {
+    font-size: 3rem;
+}
+
+/* My Orders */
+#orders-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--fourth-color);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+#orders-header {
+    font-size: 2rem;
+}
+
+/* Available Books */
+#books-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--fourth-color);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+#books-header {
+    font-size: 2rem;
+}
+
+/* Info Tables */
+.info-tables {
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.info-tables th {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.info-tables-divs {
+    overflow-y: auto;
+    max-height: 15rem;
+}
+
+.info-tables-divs thead th {
+    background-color: var(--fourth-color);
+    position: sticky;
+    top: 0;
+}
+
+/* User Operations Buttons */
+.user-operations {
+    background-color: var(--third-color);
+    font-family: 'Righteous', cursive;
+    border: none;
+    padding: 1rem;
+    color: var(--fourth-color);
+    border-radius: 2rem;
+    font-size: 1rem;
+    transition: transform .2s; /* Animation On Hover */
+}
+
+.user-operations:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#orders-cancel {
+    margin-right: 0.5rem;
+}
+
+#orders-change {
+    margin-left: 0.5rem;
+}
+
+/* User Operations Divs */
+.user-operations-divs {
+    position: absolute;
+    text-align: center;
+    background-color: var(--fourth-color);
+    background-image: url("../resources/images/uo-background.png");
+    background-repeat: repeat;
+    background-size: contain;
+    width: 60%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    border-radius: 5rem;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.uo-headers {
+    font-size: 3rem;
+}
+
+.uo-labels {
+    font-size: 2rem;
+}
+
+.uo-inputs, .user-operations-close {
+    background-color: var(--third-color);
+    font-family: 'Righteous', cursive;
+    border: none;
+    padding: 1rem;
+    color: var(--fourth-color);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    transition: transform .2s; /* Animation On Hover */
+}
+
+.uo-inputs:hover, .user-operations-close:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
