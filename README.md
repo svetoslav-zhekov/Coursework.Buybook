@@ -12,5 +12,5 @@ the user has the ability to order from available selection of books, taken and e
 * PHP
 * JavaScript
 * CSS
-* 
+
 The connection to database was simulated using [XAMPP](https://www.apachefriends.org/index.html).
