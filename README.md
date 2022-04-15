@@ -1,5 +1,7 @@
-# About Buybook
+# Before forking this repo (PLEASE READ!)
+All the images, videos, sounds, music and logos in this project are with illustrative purposes only, they cannot be used, adapted, copied or published without their creator's permission.
 
+# About Buybook
 Buybook is a personal project, which also acted as a coursework while experimenting with PHP, its a site which lets a user create an account and login, 
 the user has the ability to order from available selection of books, taken and extracted from database, the user can modify or cancel an order.
 
